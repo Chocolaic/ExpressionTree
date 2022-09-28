@@ -23,6 +23,8 @@ void readExpression()
         Solver solver;
 
         cout << endl << "RESULT>" << solver.getResult(*exp) << endl << endl;
+
+        delete exp;
     }
     catch (const char* e)
     {
